@@ -28,6 +28,8 @@ const possibleMoves = function ([x, y]) {
   return possibleMoves;
 };
 
+export default possibleMoves;
+
 const myPossibleMoves = possibleMoves([2, 0]);
 console.log(myPossibleMoves);
 
