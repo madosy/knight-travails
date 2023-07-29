@@ -2,7 +2,6 @@ import Position from "./Position.js";
 import possibleMoves from "./possibleMoves.js";
 
 const knightMoves = function (start, target) {
-  if (start == target) return [...start];
   let searchQueue = [];
   searchQueue.push({ position: start, history: [] });
 
