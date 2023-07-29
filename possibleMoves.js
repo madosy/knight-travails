@@ -29,8 +29,3 @@ const possibleMoves = function ([x, y]) {
 };
 
 export default possibleMoves;
-
-const myPossibleMoves = possibleMoves([2, 0]);
-console.log(myPossibleMoves);
-
-console.log("hi");

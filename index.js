@@ -1,8 +1,6 @@
 import possibleMoves from "./possibleMoves.js";
+import knightMoves from "./knightMoves.js";
 
-console.log(possibleMoves([3, 3]));
-let test = Object.assign({ x: 3, y: 3 }, possibleMoves([3, 3]));
-
-let myPosition = { x: 3, y: 3, 0: null };
-
+let chessBoard = Array.from({ length: 8 }, (item) => Array(8).fill(null));
+knightMoves([3, 3], [4, 1]);
 console.log();

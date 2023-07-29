@@ -4,7 +4,7 @@ class Position {
   constructor([x, y]) {
     this.x = x;
     this.y = y;
-    this.next = [];
+    this.nextMoves = possibleMoves([x, y]);
   }
 }
 

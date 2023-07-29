@@ -6,6 +6,7 @@ let startingPosition = [3, 3];
 
 let myMoves = possibleMoves(startingPosition);
 let iteration = 0;
+
 function calculateSteps(myMoves) {
   myMoves.forEach(([x, y]) => {
     if (chessBoard[x][y] !== null) return;
